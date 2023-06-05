@@ -1,0 +1,138 @@
+.signup_form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/image/bgsignup2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.signup_form .left img{
+    width: 750px;
+}
+
+.signup_form .right{
+    position: relative;
+    left: -60px;
+    top :  5px;
+    padding: 15px 0 80px;
+    color: white;
+}
+
+.signup_form .right h1{
+    font-family: Verdana;
+    margin: 0px 0 25px 60px;
+    font-size: 45px;
+}
+
+.signup_form .right p{
+    margin-bottom: 5px;
+}
+
+.signup_form .right .user{
+    border: 2px solid #6c14d0;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.signup_form .right .user i{
+    position: relative;
+    top: 9px;
+    left: 15px;
+    color: #c72092;
+}
+
+.signup_form .right .user .username{
+    position: relative;
+    left: 9%;
+    width: 250px;
+    border: none;
+    background: none;
+    outline: none;
+    display:flex;
+    font-size: 15px;
+    color: white;
+}
+
+.signup_form .right .password_tag{
+    margin: 15px 0 5px 0;
+ }
+ 
+ .signup_form .right .password{
+     border: 2px solid #6c14d0;
+     border-radius: 5px;
+     width: 300px;
+     height: 40px;
+     display: flex;
+ }
+
+.signup_form .right .password i{
+    position: relative;
+    top: 9px;
+    left: 15px;
+    color: #c72092;
+}
+
+.signup_form .right .password .pw1{
+    position: relative;
+    left: 9%;
+    width: 280px;
+    background: none;
+    border: none;
+    outline: none;
+    display:flex;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder{
+    color: #fffefe;
+    opacity: 0.8;
+}
+
+.signup_form .right .sign_up {
+    margin-top: 20px;
+}
+.signup_form .right .sign_up button{
+    width: 350px;
+    color: white;
+    padding: 7px 20px;
+    border:  none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    display: block;
+}
+
+.signup_form .right .log_in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.signup_form .right .log_in a{
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    justify-items: center;
+    text-decoration: none;
+    background-color: rgb(9, 205, 9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+}
+.signup_form .right .log_in:hover a{
+    background-color: #0efb0e;
+}
+.signup_form .right .log_in a p{
+    color: white;
+    font-size: 17px;
+    margin: 6px 10px;
+}

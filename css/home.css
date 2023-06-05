@@ -1,0 +1,333 @@
+
+
+/* Thân */
+section{
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/bg1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section .main .main_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .main .main_content .main_text h1{
+    font-size: 90px;
+    line-height: 70px;
+    font-family: pyxidium quick;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 50px;
+    left: 5%
+}
+
+section .main .main_content .main_text h1 span{
+    font-size: 70px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section .main .main_content .main_text p {
+   width: 600px;
+   text-align: justify;
+   line-height: 21px;
+   position: relative;
+   top: 85px;
+   left: 5%;
+}
+
+section .main .main_content .main_image img {
+    width: 650px;
+    position: relative;
+    left: 20px;
+    top: 75px;
+}
+
+section .main .social_icon{
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+}
+
+section .main .social_icon i{
+    font-size: 25px;
+    margin: 8px 0px;
+    cursor: pointer;
+    transform:  0,3s;
+}
+
+section .main .social_icon i:hover{
+    color: #c72092;
+}
+section .main .button{
+    position: absolute;
+    left:  6%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+}
+section .main .button a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+section .main .button a:hover{
+    color: rgb(13, 13, 14);
+}
+
+/* Sản phẩm */
+
+.products{
+    width: 100%;
+    height: 140vh;
+}
+
+.products h1 {
+    margin: 35dp 0;
+    font-size: 60px;
+    display: flex;
+    margin: 60px 0;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.products .box{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.products .box .card{
+    width: 290px;
+    height: 440px;
+    box-shadow: 0 0 8px #6c14d0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background: #f6f6f6;
+}
+.products .box .card .small_cart{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin: 15px 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+}
+
+.products .box .card:hover .small_cart{
+    transform: translateX(2px);
+    cursor: pointer;
+}
+
+.products .box .card .image img{
+    width: 150px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.products .box .card:hover .image img{  
+        transform: scale(1.1);
+}
+
+.products .box .card .small_cart i{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    border: 2px solid #999999;
+    transition: 0.2s;
+}
+
+.products .box .card .small_cart i:hover{
+    color: #f41111;
+}
+
+.products .box .card .products_test h2{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.products .box .card .products_test p{
+    color: rgb(101, 98, 98);
+    line-height: 21px;
+    margin: 4px 3px;
+}
+
+.products .box .card .products_test .pice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .box .card .products_test .pice .tile_pice{
+    margin: 4px;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.products .box .card .products_test .pice .number_pice{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.products .box .card .products_test .pice .sale_off{
+    font-size: 14px;
+}
+
+.products .box .card .products_test .pice .number_pice_sale{
+    color: rgb(255, 4, 4);
+    font-size: 16px
+}
+
+.products .box .card .products_test .pice .quantity{
+    font-size: 13px;
+}
+
+
+.products .box .card .products_star{
+    color: orange;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.products .box .card .btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.products .box .card .btn:hover{
+    color: rgb(45, 253, 8);
+}
+
+
+/* Nhận xét */
+
+.review{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    margin-top: 180px 0 60px 0;
+}
+
+
+.review h1{ 
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.review h1 span{
+    margin-left: 20px;
+
+}
+
+.review .review_box{
+    width: 95%;
+    position: relative;
+    top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.review .profile .profile_image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review .profile:hover .profile_image{
+    transform: scale(1.2);
+}
+
+.review .profile .profile_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.review .profile {
+    display: flex;
+    align-items: center;
+}
+
+.review .review_box .review_card{
+    width: 500px;
+    height: 200px;
+    background-color: #f3f1f1;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.review .review_box .review_card .card_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review .review_box .review_card .card_top .profile .name{
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.review .review_box .review_card .card_top .profile .name strong{
+    font-size: 20px;
+}
+
+.review .review_box .review_card .card_top .profile .name .like{
+    color: orange;
+    font-size: 12px;
+    display: block;
+}
+.review .review_box .review_card .card_top .time_date_classify{
+    font-size: 12px;
+}
+
+.review .review_box .review_card .comment{
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-bottom: 1rem;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
